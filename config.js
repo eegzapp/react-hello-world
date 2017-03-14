@@ -18,6 +18,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
     "react": "npm:react@15.4.2",
+    "react-dom": "npm:react-dom@15.4.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
@@ -116,8 +117,8 @@ System.config({
     "npm:fbjs@0.8.8": {
       "core-js": "npm:core-js@1.2.7",
       "isomorphic-fetch": "npm:isomorphic-fetch@2.2.1",
-      "loose-envify": "npm:loose-envify@1.3.0",
-      "object-assign": "npm:object-assign@4.1.0",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "object-assign": "npm:object-assign@4.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "promise": "npm:promise@7.1.1",
       "setimmediate": "npm:setimmediate@1.0.5",
@@ -140,9 +141,9 @@ System.config({
       "node-fetch": "npm:node-fetch@1.6.3",
       "whatwg-fetch": "npm:whatwg-fetch@2.0.1"
     },
-    "npm:loose-envify@1.3.0": {
+    "npm:loose-envify@1.3.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "js-tokens": "npm:js-tokens@2.0.0",
+      "js-tokens": "npm:js-tokens@3.0.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
@@ -180,10 +181,17 @@ System.config({
     "npm:punycode@1.3.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:react-dom@15.4.2": {
+      "fbjs": "npm:fbjs@0.8.8",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "object-assign": "npm:object-assign@4.1.1",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@15.4.2"
+    },
     "npm:react@15.4.2": {
       "fbjs": "npm:fbjs@0.8.8",
-      "loose-envify": "npm:loose-envify@1.3.0",
-      "object-assign": "npm:object-assign@4.1.0",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "object-assign": "npm:object-assign@4.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:readable-stream@1.1.14": {
